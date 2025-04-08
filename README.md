@@ -75,13 +75,21 @@ An Android application designed to streamline campus placements by connecting st
   <img src="CRS Screenshots/Screenshot_20250315-113609_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
   </p>
   
-- Apply Job, Track Status, Interview Views
+- Student Functionalities (Search Job, Apply Job, Track Application & Interview Status)
   <p align="center">
   <img src="CRS Screenshots/Screenshot_20250315-111838_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
   <img src="CRS Screenshots/Screenshot_20250315-111929_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
   <img src="CRS Screenshots/Screenshot_20250315-112108_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
   <img src="CRS Screenshots/Screenshot_20250315-112123_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
   </p>
+
+- Company Functionalities (Post Job, Review Applications, Schedule Interview)
+  <p align="center">
+  <img src="CRS Screenshots/Screenshot_20250315-113649_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-113706_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-113730_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  </p>
+  
 - Feedback Forms
 - Admin Management Panels
 
