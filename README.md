@@ -1,4 +1,4 @@
-# 🎓 Campus Recruitment System App
+![Screenshot_20250315-095730_CRS 2025](https://github.com/user-attachments/assets/99e93b1c-64a4-4b39-a2ec-c3262eed6b4d)# 🎓 Campus Recruitment System App
 
 An Android application designed to streamline campus placements by connecting students, companies, and administrators on a single platform.
 
@@ -58,6 +58,13 @@ An Android application designed to streamline campus placements by connecting st
 ## 🖼 UI Screenshots
 
 - Login / Registration Pages
+  ![Screenshot_20250315-095730_CRS 2025](https://github.com/user-attachments/assets/c553928b-375a-4b17-beb6-1a4b8d451bf1)
+  ![Screenshot_20250315-101041_CRS 2025](https://github.com/user-attachments/assets/08e34aac-11ff-4ffe-8380-59305137447d)
+  ![Screenshot_20250315-101055_CRS 2025](https://github.com/user-attachments/assets/56fd2eb2-1509-47cc-8126-b0e38f79ad43)
+  ![Screenshot_20250315-101909_CRS 2025](https://github.com/user-attachments/assets/7caaeb2b-58a0-4152-989f-e8483053a5e3)
+  ![Screenshot_20250315-101920_CRS 2025](https://github.com/user-attachments/assets/b3180887-4c6d-4b6c-b8a9-46e98f7e89db)
+  ![Screenshot_20250315-101932_CRS 2025](https://github.com/user-attachments/assets/672ee88a-2262-4dbd-a815-73549e0e95fb)
+
 - Dashboards (Student, Company, Admin)
 - Apply Job, Track Status, Interview Views
 - Feedback Forms
