@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.RegisterActivity"
+    android:background="@color/background_light"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_card"
+        android:elevation="4dp"
+        android:layout_gravity="center">
+
+        <!-- Role Selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Role"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="none">
+
+        <Spinner
+            android:id="@+id/spinner_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/register_roles"
+            android:background="@android:color/transparent"
+            android:paddingBottom="12dp"
+            android:importantForAccessibility="yes"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Full Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Address -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Enrollment No -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_enrollment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enrollment No"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Branch -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Branch"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Institute -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Institute"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Confirm Password -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Register Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#7F5539"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

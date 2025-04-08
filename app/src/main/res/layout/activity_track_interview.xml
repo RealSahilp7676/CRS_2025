@@ -1,0 +1,109 @@
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Track Interviews"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingBottom="20dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_no_interviews"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="No interviews scheduled yet."-->
+<!--        android:textSize="16sp"-->
+<!--        android:gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="gone"-->
+<!--        android:padding="20dp" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv_interviews"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--</LinearLayout>-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Interviews"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:paddingBottom="20dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Message when no applications are available -->
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_no_interviews"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Interviews found.\nHard luck but keep trying."
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="?attr/colorOnSurface"
+                    android:padding="20dp"
+                    app:cornerRadius="8dp"
+                    android:elevation="2dp"/>
+
+                <!-- ListView -->
+                <ListView
+                    android:id="@+id/lv_interviews"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:divider="@color/material_on_surface_variant"
+                    android:dividerHeight="2dp"
+                    android:background="?attr/colorSurface"
+                    android:elevation="2dp"
+                    android:padding="8dp"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="12sp"
+            style="@style/GoBack"/>
+    </LinearLayout>
+
+</ScrollView>

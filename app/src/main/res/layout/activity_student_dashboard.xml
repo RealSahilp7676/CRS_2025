@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:id="@+id/student_dashboard_layout">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Student"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnSearchJob"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Search Job"
+        android:backgroundTint="#38b000"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnApplyJob"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Apply for Jobs"
+        android:backgroundTint="#38b000"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnTrackStatus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Track Application Status"
+        android:backgroundTint="#38b000"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnTrackInterview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Track Interview Status"
+        android:backgroundTint="#38b000"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnStudentFeedback"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Provide Feedback"
+        android:backgroundTint="#38b000"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#da2c38"
+        style="@style/DashboardButtonStyle"/>
+</LinearLayout>

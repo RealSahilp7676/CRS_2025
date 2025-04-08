@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application Details"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Job Title -->
+            <TextView android:text="Job Title" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_job_title" style="@style/ValueStyle"/>
+
+            <!-- Student Name -->
+            <TextView android:text="Student Full Name" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_full_name" style="@style/ValueStyle"/>
+
+            <!-- Student Email -->
+            <TextView android:text="Student Email" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_email" style="@style/ValueStyle"/>
+
+            <!-- Student Address -->
+            <TextView android:text="Student Address" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_address" style="@style/ValueStyle"/>
+
+            <!-- Student Branch -->
+            <TextView android:text="Student Branch" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_branch" style="@style/ValueStyle"/>
+
+            <!-- CGPA -->
+            <TextView android:text="CGPA" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_cgpa" style="@style/ValueStyle"/>
+
+            <!-- Reason To Apply -->
+            <TextView android:text="Reason To Apply" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_reason" style="@style/ValueStyle"/>
+
+            <!-- Resume Link -->
+            <TextView android:text="Resume Link" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_resume" style="@style/ValueStyle"/>
+
+            <!-- Application Status -->
+            <TextView android:text="Status" style="@style/TitleStyle"/>
+            <TextView android:id="@+id/tv_status" style="@style/ValueStyle"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+        <!-- Approve & Reject Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_approve"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Approve"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:backgroundTint="#29bf12"
+                app:cornerRadius="12dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_reject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reject"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:backgroundTint="@color/red"
+                app:cornerRadius="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+
+        <!-- Go Back Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            style="@style/GoBack"
+            app:cornerRadius="12dp"/>
+    </LinearLayout>
+</ScrollView>

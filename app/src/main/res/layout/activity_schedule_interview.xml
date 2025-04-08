@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Interviews"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/rounded_card"
+            android:elevation="4dp"
+            android:layout_gravity="start">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Job Title"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+        <Spinner
+            android:id="@+id/sp_job_title"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Student"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+        <Spinner
+            android:id="@+id/sp_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <!-- Select Date -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="?attr/colorPrimary"
+                android:paddingBottom="10dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select Date"
+                    android:focusable="false"
+                    android:clickable="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Select Time -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="?attr/colorPrimary"
+                android:paddingBottom="10dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select Time"
+                    android:focusable="false"
+                    android:clickable="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Venue Address -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="?attr/colorPrimary"
+                android:paddingBottom="10dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_venue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Venue Address"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interview Type"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+        <Spinner
+            android:id="@+id/sp_interview_type"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:padding="8dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule Interview"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_500"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_previous_interviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Previous Interview"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00A8E8"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="12sp"
+            style="@style/GoBack"/>
+    </LinearLayout>
+
+</ScrollView>

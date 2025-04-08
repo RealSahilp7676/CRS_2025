@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479011175482",
+    "project_id": "crs-2025-81ae8",
+    "storage_bucket": "crs-2025-81ae8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479011175482:android:839f2dc7a2bdaeb8604903",
+        "android_client_info": {
+          "package_name": "com.example.crs2025"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPlzL1n0Tsvg5QMdmysObehMP2XaIh5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

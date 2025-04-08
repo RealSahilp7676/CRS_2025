@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interview Details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/rounded_card"
+            android:elevation="4dp"
+            android:layout_gravity="center">
+
+            <!-- Job Title -->
+            <TextView
+                android:text="Job Title"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_job_title"
+                style="@style/ValueStyle"/>
+
+            <!-- Student Name -->
+            <TextView
+                android:text="Student Name"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_student_name"
+                style="@style/ValueStyle"/>
+
+            <!-- Company Name -->
+            <TextView
+                android:text="Company Name"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_company"
+                style="@style/ValueStyle"/>
+
+            <!-- Interview Date -->
+            <TextView
+                android:text="Interview Date"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/ValueStyle"/>
+
+            <!-- Interview Time -->
+            <TextView
+                android:text="Interview Time"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/ValueStyle"/>
+
+            <!-- Venue -->
+            <TextView
+                android:text="Venue"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_venue"
+                style="@style/ValueStyle"/>
+
+            <!-- Interview Type -->
+            <TextView
+                android:text="Interview Type"
+                style="@style/TitleStyle"/>
+            <TextView
+                android:id="@+id/tv_interview_type"
+                style="@style/ValueStyle"/>
+
+
+        </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            style="@style/GoBack"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

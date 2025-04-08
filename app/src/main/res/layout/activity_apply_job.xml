@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".student.ApplyJobActivity"
+    android:background="@color/background_light"
+    android:id="@+id/apply_job_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Form"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_card"
+        android:elevation="4dp"
+        android:layout_gravity="start">
+
+        <!-- Job Title Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Job Title"
+            android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/sp_job_title"
+            android:layout_width="match_parent"
+            android:layout_height="48sp" />
+
+        <!-- Company Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Company"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <Spinner
+            android:id="@+id/sp_company"
+            android:layout_width="match_parent"
+            android:layout_height="48sp" />
+
+        <TextView
+            android:text="Required Skills:"
+            android:layout_width="match_parent"
+            android:layout_height="34sp"
+            android:paddingTop="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_skills"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:textSize="14sp"/>
+
+        <!-- Full Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Address -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Branch -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Branch"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- CGPA -->
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        android:paddingBottom="8sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CGPA"
+            android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Reason to Apply -->
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        android:paddingBottom="8sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reason to Apply"
+            android:inputType="textMultiLine"
+            android:minLines="3"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Resume Link -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Resume Link"
+                android:inputType="textUri"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+        <!-- Apply Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00A8E8"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            style="@style/GoBack"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

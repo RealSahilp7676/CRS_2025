@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Recruitment System"
+        android:fontFamily="monospace"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00b4d8"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#0077b6"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+</LinearLayout>

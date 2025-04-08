@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CRS 2025</string>
+        <string-array name="roles">
+            <item>Admin</item>
+            <item>Student</item>
+            <item>Company</item>
+        </string-array>
+
+        <string-array name="login_roles">
+            <item>Admin</item>
+            <item>Student</item>
+            <item>Company</item>
+        </string-array>
+
+    <string-array name="register_roles">
+        <item>Student</item>
+        <item>Company</item>
+    </string-array>
+
+</resources>

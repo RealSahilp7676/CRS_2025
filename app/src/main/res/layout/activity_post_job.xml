@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".company.PostJobActivity"
+    android:background="@color/background_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Job Section"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_card"
+        android:elevation="4dp"
+        android:layout_gravity="start">
+
+        <!-- Job Title -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_job_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Job Title"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Technical Skills -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Technical Skills Required"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- CGPA -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cgpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CGPA Required"
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Job Type -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="8sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_job_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Job Type (Full-Time, Internship)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cb_internship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internship required?"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurface"
+            android:padding="8dp"
+            style="@style/Widget.MaterialComponents.CompoundButton.CheckBox"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_post_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Job"
+        android:layout_marginTop="12dp"
+        app:cornerRadius="16dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#00A8E8"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        style="@style/GoBack"
+        app:cornerRadius="12dp"/>
+
+</LinearLayout>

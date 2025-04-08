@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin 👨‍💻"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_manage_students"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Students"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_manage_companies"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Companies"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_manage_applications"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Applications"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_manage_jobs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Jobs"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_manage_interviews"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Interviews"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_manage_feedbacks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Feedbacks"
+        android:backgroundTint="#27187e"
+        style="@style/DashboardButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#da2c38"
+        style="@style/DashboardButtonStyle"/>
+</LinearLayout>
