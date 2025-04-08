@@ -59,7 +59,7 @@ An Android application designed to streamline campus placements by connecting st
 
 - Login / Registration Pages
   <p align="center">
-  <p><img src="CRS Screenshots/Screenshot_20250315-095730_CRS 2025.jpg"" alt="CRS app screenshot" width="200" height="112"/>
+  <p><img src="CRS Screenshots/Screenshot_20250315-095730_CRS 2025.jpg"" alt="CRS app screenshot" width="200" height="900"/>
   <img src="![Screenshot_20250315-101041_CRS 2025](https://github.com/user-attachments/assets/08e34aac-11ff-4ffe-8380-59305137447d)" alt="CRS app screenshot" width="200" height="112"/>
   <img src="![Screenshot_20250315-101055_CRS 2025](https://github.com/user-attachments/assets/56fd2eb2-1509-47cc-8126-b0e38f79ad43)" alt="CRS app screenshot" width="200" height="112"/>
   </p>
