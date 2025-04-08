@@ -70,9 +70,9 @@ An Android application designed to streamline campus placements by connecting st
 
 - Dashboards (Student, Company, Admin)
   <p align="center">
-  <img src="CRS Screenshots/Screenshot_20250315-102501_CRS 2025.jpg"" alt="CRS app screenshot" width="270" height="564"/>
-  <img src="CRS Screenshots/Screenshot_20250315-111825_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
-  <img src="CRS Screenshots/Screenshot_20250315-113609_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
+  <img src="CRS Screenshots/Screenshot_20250315-102501_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-111825_CRS 2025.jpg" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-113609_CRS 2025.jpg" alt="CRS app screenshot" width="180" height="376"/>
   </p>
   
 - Student Functionalities (Search Job, Apply Job, Track Application & Interview Status)
@@ -91,6 +91,11 @@ An Android application designed to streamline campus placements by connecting st
   </p>
   
 - Feedback Forms
+  <p align="center">
+  <img src="CRS Screenshots/Screenshot_20250315-112144_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-113811_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  </p>
+
 - Admin Management Panels
 
 ---
