@@ -1,4 +1,4 @@
-🎓 Campus Recruitment System App
+## 🎓 Campus Recruitment System App
 
 An Android application designed to streamline campus placements by connecting students, companies, and administrators on a single platform.
 
