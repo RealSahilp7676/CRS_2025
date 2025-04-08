@@ -77,7 +77,10 @@ An Android application designed to streamline campus placements by connecting st
   
 - Apply Job, Track Status, Interview Views
   <p align="center">
-  <img src="CRS Screenshots/Screenshot_20250315-102501_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-111838_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-111929_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-112108_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
+  <img src="CRS Screenshots/Screenshot_20250315-112123_CRS 2025.jpg"" alt="CRS app screenshot" width="180" height="376"/>
   </p>
 - Feedback Forms
 - Admin Management Panels
