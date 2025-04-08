@@ -61,12 +61,12 @@ An Android application designed to streamline campus placements by connecting st
   <p align="center">
   <p><img src="CRS Screenshots/Screenshot_20250315-095730_CRS 2025.jpg"" alt="CRS app screenshot" width="270" height="564"/>
   <img src="CRS Screenshots/Screenshot_20250315-101041_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
-  <img src="![Screenshot_20250315-101055_CRS 2025](https://github.com/user-attachments/assets/56fd2eb2-1509-47cc-8126-b0e38f79ad43)" alt="CRS app screenshot" width="270" height="564"/>
+  <img src="CRS Screenshots/Screenshot_20250315-101055_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
   </p>
   <p>
-  <img src="![Screenshot_20250315-101909_CRS 2025](https://github.com/user-attachments/assets/7caaeb2b-58a0-4152-989f-e8483053a5e3)" alt="CRS app screenshot" width="270" height="564"/>
-  <img src="![Screenshot_20250315-101920_CRS 2025](https://github.com/user-attachments/assets/b3180887-4c6d-4b6c-b8a9-46e98f7e89db)" alt="CRS app screenshot" width="270" height="564"/>
-  <img src="![Screenshot_20250315-101932_CRS 2025](https://github.com/user-attachments/assets/672ee88a-2262-4dbd-a815-73549e0e95fb)" alt="CRS app screenshot" width="270" height="564"/>
+  <img src="CRS Screenshots/Screenshot_20250315-101909_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
+  <img src="CRS Screenshots/Screenshot_20250315-101920_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
+  <img src="CRS Screenshots/Screenshot_20250315-101932_CRS 2025.jpg" alt="CRS app screenshot" width="270" height="564"/>
   </p>
   </p>
 
